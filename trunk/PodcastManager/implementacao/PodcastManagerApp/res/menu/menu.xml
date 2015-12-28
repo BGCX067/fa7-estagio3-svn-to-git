@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"        
+        android:title="@string/action_settings">
+                 
+            <item android:id="@+id/option_search_feed_podcast"
+                  android:title="@string/option_search_feed_podcasts" />      
+        
+    </item>    
+    
+</menu>

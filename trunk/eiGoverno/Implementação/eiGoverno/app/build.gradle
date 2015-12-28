@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "21.0.1"
+
+    defaultConfig {
+        applicationId "com.example.mapas2"
+        minSdkVersion 15
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+
+    compile 'com.j256.ormlite:ormlite-core:4.48'
+    compile 'com.j256.ormlite:ormlite-android:4.48'
+    compile 'com.android.support:support-v4:+'
+    compile 'com.google.android.gms:play-services:+'
+    compile 'org.jasypt:jasypt:1.9.2'
+    compile 'com.github.amlcurran.showcaseview:library:5.0.0'
+}

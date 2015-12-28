@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PedidoOnlineApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="cardapio">Cardápio</string>
+    <string name="expandir">Cardápio</string>
+    <string name="title_activity_cardapio">CardapioActivity</string>
+    <string name="efetuar_pedido">Efetuar Pedido</string>
+    <string name="meus_pedido">Meus pedidos</string>
+    <string name="alerta_falha">Erro</string>
+    <string name="falha_carregar_cardapio">Não foi possível obter o cardápio!</string>
+    <string name="falha_realizar_pedido">Não foi possível realizar o pedido!</string>
+    <string name="ler_qrcode">Ler QrCode</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="visualizar_fatura_parcial">Visualizar Fatura</string>
+    <string name="preco_zero">0</string>
+
+</resources>

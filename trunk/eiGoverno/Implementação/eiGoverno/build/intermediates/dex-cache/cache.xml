@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\testeSVN\eiGoverno\Implementação\eiGoverno\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-356de2380ea42845e56827ed4dfbd57233f62b27.jar"
+        jar="C:\testeSVN\eiGoverno\Implementação\eiGoverno\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="C:\testeSVN\eiGoverno\Implementação\eiGoverno\app\build\intermediates\pre-dexed\debug\classes-58f741d8f5b14cdf99d7a22d1a2255d0a380b096.jar"
+        jar="C:\testeSVN\eiGoverno\Implementação\eiGoverno\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.11\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="0f700f6802ba1a1f1fa7ac26d5db0666a89d75a6"/>
+    <item
+        dex="C:\testeSVN\eiGoverno\Implementação\eiGoverno\app\build\intermediates\pre-dexed\debug\classes-c4011087537ea19bd25dc2386f346690c523685d.jar"
+        jar="C:\testeSVN\eiGoverno\Implementação\eiGoverno\app\build\intermediates\exploded-aar\com.oguzdev\CircularFloatingActionMenu\1.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20"/>
+    <item
+        dex="C:\testeSVN\eiGoverno\Implementação\eiGoverno\app\build\intermediates\pre-dexed\debug\classes-36be95bd60da9c0728b72e3905b44457a95314db.jar"
+        jar="C:\testeSVN\eiGoverno\Implementação\eiGoverno\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+
+</pre-dex-items>

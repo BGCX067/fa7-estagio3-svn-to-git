@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PapoInBar</string>
+    <string name="title_bares">Bares</string>
+    <string name="title_aperitivos">Aperitivos</string>
+    <string name="title_gastos">Gastos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Configurar</string>
+    <string name="title_about">Sobre</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cadastrar_bar">Cadastrar Bar</string>
+    <string name="title_activity_cadastro_bar">Cadastro de Bar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_visualizar_bar">VisualizarBarActivity</string>
+    <string name="title_activity_cadastro_aperitivo">Cadastro de Aperitivo</string>
+
+</resources>

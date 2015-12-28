@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/hello"
+	/>
+<CheckBox
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Cabeilereiro Profissional R$ 4.000"
+	android:id="@+id/cbCabeilereiro"
+	/>
+	<CheckBox
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Barbeiro Profissional R$ 2.000"
+	android:id="@+id/cbBarbeiro"
+	/>
+	<CheckBox
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Manicure Profissional R$ 1.000"
+	android:id="@+id/cbManicure"
+	/>
+	<CheckBox
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Depilador Profissional R$ 1.000"
+	android:id="@+id/cbDepilador"
+	/>
+	<CheckBox
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Penteados R$ 2.000"
+	android:id="@+id/cbPenteados"
+	/>
+	<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Finalizar a compra."
+	android:id="@+id/btFinalizar"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Valor total da compra:"
+	/>
+	<EditText
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/etValorTotal"
+	/>
+
+
+
+
+    
+    
+    
+</LinearLayout>

@@ -1,0 +1,12 @@
+﻿Criando e usando Banco de Dados em uma Aplicação Android
+- http://fabrica.ms.senac.br/2013/06/criando-e-usando-banco-de-dados-em-uma-aplicacao-android/
+- https://wiki.eclipse.org/Connecting_to_SQLite
+
+Android: How to download file in android?
+- http://stackoverflow.com/questions/5881774/android-how-to-download-file-in-android
+- http://stackoverflow.com/questions/3028306/download-a-file-with-android-and-showing-the-progress-in-a-progressdialog
+- http://www.helloandroid.com/tutorials/how-download-fileimage-url-your-device
+- http://www.hassanpur.com/blog/2011/04/android-development-downloading-a-file-from-the-web/
+
+-
+

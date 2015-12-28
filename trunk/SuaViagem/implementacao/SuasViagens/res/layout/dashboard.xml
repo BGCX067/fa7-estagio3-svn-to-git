@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bannerverde"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_dashboard" >
+
+        <TextView
+            android:id="@+id/minhas_viagens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nova_viagem"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:drawableTop="@drawable/placaverde"
+            android:onClick="selecionarOpcao"
+            android:text="@string/minhas_viagens"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/configuracoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/minhas_viagens"
+            android:layout_marginBottom="38dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/novaconf"
+            android:onClick="selecionarOpcao"
+            android:text="@string/configuracoes"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nova_viagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/malaiconeof"
+            android:onClick="selecionarOpcao"
+            android:text="@string/nova_viagem"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

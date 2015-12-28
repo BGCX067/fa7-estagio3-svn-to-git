@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, Salute!</string>
+  <string name="app_name">Salute</string>
+  <string name="no_todos">Currently there are no Todo items maintained</string>
+  <string name="menu_insert">Add Item</string>
+  <string name="menu_delete">Delete Todo</string>
+  <string name="todo_summary">Summary</string>
+  <string name="todo_description">Delete Todo</string>
+  <string name="todo_edit_summary">Summary</string>
+  <string name="todo_edit_description">Description</string>
+  <string name="todo_edit_confirm">Confirm</string>
+  <string name="activity_main_entrar">Entrar</string>
+  <string name="activity_main_limpar">Limpar</string>
+  <string name="erro_autenticacao">Usuário ou senha inválidos</string>
+  <string name="login_salvo">login efetuado com sucesso!</string>
+  <string name="informa_email">Informe seu email</string>
+  <string name="informa_senha">Informe sua senha</string>
+  </resources>

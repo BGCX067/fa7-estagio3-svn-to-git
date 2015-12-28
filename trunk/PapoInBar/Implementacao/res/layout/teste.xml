@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f8f8d8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtValorTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Valor Total" />
+
+    <ListView
+        android:id="@+id/listAperitivos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false"
+        android:layout_above="@+id/txtValorTotal"
+        android:layout_below="@+id/addAperitivo" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutLinha1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnEditarBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="Editar Bar" />
+
+        <Button
+            android:id="@+id/btnExcluirBar"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Excluir Bar" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addAperitivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayoutLinha1"
+        android:text="Aperitivos" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	
+    <ImageView
+        android:id="@+id/podcastCover"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:contentDescription="@string/imgCoverDescription"
+        android:src="@drawable/pm_launcher" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/podcastTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/podcastCover"
+        android:text="podcastTitle"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/episodiosQtd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/podcastTitle"
+        android:layout_below="@+id/podcastTitle"
+        android:layout_marginTop="27dp"
+        android:text="episodiosQtd"
+        android:textSize="15sp" />
+    
+    <ListView
+        android:id="@+id/listEpisodiosPodcast"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/podcastCover"
+        android:layout_margin="5dp" 
+        android:layout_weight="1" />
+    
+</RelativeLayout>

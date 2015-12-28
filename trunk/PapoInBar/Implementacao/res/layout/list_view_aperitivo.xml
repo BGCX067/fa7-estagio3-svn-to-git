@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f8f8d8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/nomeAperitivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/add"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nomeAperitivo"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:contentDescription="Mais aperitivos"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/plus" />
+
+    <TextView
+        android:id="@+id/valorAperitivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/nomeAperitivo"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:id="@+id/remove"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/add"
+        android:layout_marginRight="22dp"
+        android:background="@null"
+        android:contentDescription="Menos aperitivos"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/minus" />
+
+    <TextView
+        android:id="@+id/txtQuantidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/add"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/add"
+        android:text="---"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

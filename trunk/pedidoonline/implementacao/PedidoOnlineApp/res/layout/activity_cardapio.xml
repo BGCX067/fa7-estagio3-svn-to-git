@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CardapioActivity" >
+
+    <TextView
+        android:id="@+id/label_cardapio"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_gravity="top|left"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:text="@string/cardapio"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ExpandableListView
+        android:id="@+id/cardapioExpandableListView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="6"
+        android:transcriptMode="disabled" >
+    </ExpandableListView>
+
+    <Button
+        android:id="@+id/realizar_pedido"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_gravity="right|bottom"
+        android:layout_weight="1"
+        android:onClick="OnClickEfetuarPedido"
+        android:text="@string/efetuar_pedido" />
+    
+
+</LinearLayout>

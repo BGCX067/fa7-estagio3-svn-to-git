@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/tv_emailLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/campo_email"/>
+
+    <EditText
+        android:id="@+id/ed_emailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+       >
+
+        <requestFocus android:layout_width="wrap_content" />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_senhaLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/campo_senha"/>
+
+    <EditText
+        android:id="@+id/ed_senhaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login" />
+
+</LinearLayout><!-- From: file:/C:/testeSVN/eiGoverno/Implementação/eiGoverno/app/src/main/res/layout/fragment_login.xml -->

@@ -1,0 +1,50 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="2"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context=".PodcastSearchFeedActivity" >
+	
+	<TableRow
+	    android:id="@+id/tableRow3"
+	    android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+	    android:padding="5dip">
+
+		<EditText
+		    android:id="@+id/input_search_feed_podcast"
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content"		    
+		    android:layout_gravity="start"
+		    android:ems="11"
+		    android:text="513"
+		    android:inputType="text" >
+
+		    <requestFocus />
+		</EditText>
+
+		<Button
+		    android:id="@+id/button_search_feed_podcast"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"		    		   
+		    android:text="@string/button_search"  />
+
+	</TableRow>
+	
+	 <TextView
+        android:id="@+id/msgReturnSearchFeeds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip" />
+	 
+	 <ListView
+        android:id="@+id/listRestultSearchFeeds"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1" />
+	 
+</TableLayout>
